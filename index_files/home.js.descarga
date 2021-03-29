@@ -1,0 +1,90 @@
+$(function() {
+	$("#mb-scrolldown a").click(function(){
+		$("html, body").animate({ 
+			scrollTop: $($(this).attr("goto")).offset().top - 30 
+		}, 1250);
+	});
+	
+	$('.owl-carousel').owlCarousel({
+	    items: 1,
+	    loop: true,
+	    margin: 10,
+	    nav:true,
+	 });	
+	 
+	 
+	 $('#subscribe_form').submit(function(e){
+		 e.preventDefault();
+		var email   = $("#email").val();		
+		var atPos   = email.indexOf("@");
+		var dotPos  = email.lastIndexOf(".");		
+		
+		if(atPos < 1 || dotPos < atPos + 2 || dotPos + 2 >= email.length) {
+			showTool($("#email"), "Este correo no es válido");
+			$("#email").val("");
+			$("#email").focus();
+			return false;
+		}
+		
+		
+		$.ajax({
+			type: "POST", 
+			dataType: "json",
+			url: 'requests/index.php', 
+			beforeSend: function(){ 
+				$('#subscribe_form').hide();
+				$('.loading').fadeIn();
+			},
+			data: { 
+				email: email, 
+			} 
+		})
+		.done(function( html ) {
+			
+			$('.loading').hide();				
+			
+			if(html.success == 1) {
+				$('.thanks').fadeIn();				
+			} else {
+				$('.subscribed').fadeIn();								
+			}
+		})
+		.fail(function(){
+			$('.loading').hide();				
+			$('#subscribe_form').show();
+			showTool($("#email"), "Oops! Hubo un error!");				
+		});	
+		 
+		 // validate email
+	 });
+	 
+	 
+	 
+	 
+	 function showTool(sel, mes) {
+		$("#tool").remove();
+		
+		var pos = sel.offset();
+		var posTop = pos.top;
+				
+		$('<div id="tool" />')
+		.hide()
+		.appendTo('body')
+		.text(mes)
+		.css({
+			top: posTop - 50,
+			left: (((sel.offset().left + ($('#tool').outerWidth() / 2))) + ( sel.outerWidth() / 2 )) - ($('#tool').outerWidth() / 2) + 'px',
+			marginLeft: '-' + ($("#tool").outerWidth() / 2) + 'px'
+		})
+		.fadeIn(350);	
+	}
+	
+	$('body').on('click', function(e){
+		if(!$(e.target).hasClass('btn-submit')) {
+			$("#tool").fadeOut(350);
+			$("#tool").remove();		
+		}
+	});
+
+	 
+});
