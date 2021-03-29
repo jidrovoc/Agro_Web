@@ -979,7 +979,7 @@ select,textarea,input[type="text"],input[type="password"],input[type="datetime"]
 
 @media (max-width:800px) {
 	.mb-logo {
-		background:url(../img/wlogo@2x.png) no-repeat;
+		background:url(../index_files/wlogo@2x.png) no-repeat;
 		background-size:100% 100%;
 		display:block;
 		width:228px;
