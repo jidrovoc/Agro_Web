@@ -1264,10 +1264,12 @@ select,textarea,input[type="text"],input[type="password"],input[type="datetime"]
 @media screen and (max-width: 1000px){
 	.containers{
 		width: 100%;
+		bottom: 121px;
 	}
 	.containers .card{
 		width: 100px;
-		height: 125px;
+		height: 115px;
+
 	}
 }
 
@@ -1293,11 +1295,11 @@ select,textarea,input[type="text"],input[type="password"],input[type="datetime"]
 	.containers{
 		width: 100%;
 		max-width: 1000px;
-		height: 5px;
+		height: 2px;
 		left: 45px;
 	}
 	.containers .card{
-		width: 30%
+		width: 20%
 		position:absolute;
 	}
 
