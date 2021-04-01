@@ -1202,7 +1202,7 @@ select,textarea,input[type="text"],input[type="password"],input[type="datetime"]
 	position: absolute;
 	left: 300px;
 	bottom: 130px;
-	color: transparent;
+	
 }
 
 .containers .card{
@@ -1241,3 +1241,89 @@ select,textarea,input[type="text"],input[type="password"],input[type="datetime"]
 	text-decoration: none;
 	color: #3498db;
 }
+
+@media screen and (max-width: 1200px){
+	.containers{
+		width: 100%;
+		max-width: 1000px;
+		height: 5px;
+		left: 140px;
+
+	}
+	.containers .card{
+		width: 30%
+		position:absolute;
+	}
+
+	.containers .card img{
+		width: 60px;
+		height: 60px;
+	}
+}
+
+@media screen and (max-width: 1000px){
+	.containers{
+		width: 100%;
+	}
+	.containers .card{
+		width: 100px;
+		height: 125px;
+	}
+}
+
+@media screen and (max-width: 800px){
+	.containers{
+		width: 100%;
+		max-width: 1000px;
+		height: 5px;
+		left: 45px;
+	}
+	.containers .card{
+		width: 30%
+		position:absolute;
+	}
+
+	.containers .card img{
+		width: 60px;
+		height: 60px;
+	}
+}
+
+@media screen and (max-width: 620px){
+	.containers{
+		width: 100%;
+		max-width: 1000px;
+		height: 5px;
+		left: 45px;
+	}
+	.containers .card{
+		width: 30%
+		position:absolute;
+	}
+
+	.containers .card img{
+		width: 60px;
+		height: 60px;
+	}
+}
+
+@media screen and (max-width: 100px){
+	.containers{
+		width: 100%;
+		max-width: 1000px;
+		height: 5px;
+		left: 45px;
+	}
+	.containers .card{
+		width: 30%
+		position:absolute;
+	}
+
+	.containers .card img{
+		width: 60px;
+		height: 60px;
+	}
+}
+
+
+
