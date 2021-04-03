@@ -1,39 +1,39 @@
 @font-face {
 	font-family:'montserrat-hairline-webfont';
-	src:url(../fonts/montserrat-hairline-webfont.eot);
-	src:url(../fonts/montserrat-hairline-webfont.eot?#iefix) format("embedded-opentype"),url(../fonts/montserrat-hairline-webfont.woff2) format("woff2"),url(../fonts/montserrat-hairline-webfont.woff) format("woff"),url(../fonts/montserrat-hairline-webfont.ttf) format("truetype"),url(../fonts/montserrat-hairline-webfont.svg#montserrat-hairline-webfont) format("svg");
+	src:url(../Frutas_files/montserrat-hairline-webfont.eot);
+	src:url(../Frutas_files/montserrat-hairline-webfont.eot?#iefix) format("embedded-opentype"),url(../Frutas_files/montserrat-hairline-webfont.woff2) format("woff2"),url(../Frutas_files/montserrat-hairline-webfont.woff) format("woff"),url(../Frutas_files/montserrat-hairline-webfont.ttf) format("truetype"),url(../Frutas_files/montserrat-hairline-webfont.svg#montserrat-hairline-webfont) format("svg");
 	font-weight:400;
 	font-style:normal;
 }
 
 @font-face {
 	font-family:'montserrat-light-webfont';
-	src:url(../fonts/montserrat-light-webfont.eot);
-	src:url(../fonts/montserrat-light-webfont.eot?#iefix) format("embedded-opentype"),url(../fonts/montserrat-light-webfont.woff2) format("woff2"),url(../fonts/montserrat-light-webfont.woff) format("woff"),url(../fonts/montserrat-light-webfont.ttf) format("truetype"),url(../fonts/montserrat-light-webfont.svg#montserrat-light-webfont) format("svg");
+	src:url(../Frutas_files/montserrat-light-webfont.eot);
+	src:url(../Frutas_files/montserrat-light-webfont.eot?#iefix) format("embedded-opentype"),url(../Frutas_files/montserrat-light-webfont.woff2) format("woff2"),url(../Frutas_files/montserrat-light-webfont.woff) format("woff"),url(../Frutas_files/montserrat-light-webfont.ttf) format("truetype"),url(../Frutas_files/montserrat-light-webfont.svg#montserrat-light-webfont) format("svg");
 	font-weight:400;
 	font-style:normal;
 }
 
 @font-face {
 	font-family:'montserrat-regular-webfont';
-	src:url(../fonts/montserrat-regular-webfont.eot);
-	src:url(../fonts/montserrat-regular-webfont.eot?#iefix) format("embedded-opentype"),url(../fonts/montserrat-regular-webfont.woff2) format("woff2"),url(../fonts/montserrat-regular-webfont.woff) format("woff"),url(../fonts/montserrat-regular-webfont.ttf) format("truetype"),url(../fonts/montserrat-regular-webfont.svg#montserrat-regular-webfont) format("svg");
+	src:url(../Frutas_files/montserrat-regular-webfont.eot);
+	src:url(../Frutas_files/montserrat-regular-webfont.eot?#iefix) format("embedded-opentype"),url(../Frutas_files/montserrat-regular-webfont.woff2) format("woff2"),url(../Frutas_files/montserrat-regular-webfont.woff) format("woff"),url(../Frutas_files/montserrat-regular-webfont.ttf) format("truetype"),url(../Frutas_files/montserrat-regular-webfont.svg#montserrat-regular-webfont) format("svg");
 	font-weight:400;
 	font-style:normal;
 }
 
 @font-face {
 	font-family:'montserrat-ultralight-webfont';
-	src:url(../fonts/montserrat-ultralight-webfont.eot);
-	src:url(../fonts/montserrat-ultralight-webfont.eot?#iefix) format("embedded-opentype"),url(../fonts/montserrat-ultralight-webfont.woff2) format("woff2"),url(../fonts/montserrat-ultralight-webfont.woff) format("woff"),url(../fonts/montserrat-ultralight-webfont.ttf) format("truetype"),url(../fonts/montserrat-ultralight-webfont.svg#montserrat-ultralight-webfont) format("svg");
+	src:url(../Frutas_files/montserrat-ultralight-webfont.eot);
+	src:url(../Frutas_files/montserrat-ultralight-webfont.eot?#iefix) format("embedded-opentype"),url(../Frutas_files/montserrat-ultralight-webfont.woff2) format("woff2"),url(../Frutas_files/montserrat-ultralight-webfont.woff) format("woff"),url(../Frutas_files/montserrat-ultralight-webfont.ttf) format("truetype"),url(../Frutas_files/montserrat-ultralight-webfont.svg#montserrat-ultralight-webfont) format("svg");
 	font-weight:400;
 	font-style:normal;
 }
 
 @font-face {
 	font-family:'DINNextLTPro-Light';
-	src:url(../fonts/DINNextLTPro-Light.eot);
-	src:url(../fonts/DINNextLTPro-Light.eot?#iefix) format("embedded-opentype"),url(../fonts/DINNextLTPro-Light.woff2) format("woff2"),url(../fonts/DINNextLTPro-Light.woff) format("woff"),url(../fonts/DINNextLTPro-Light.ttf) format("truetype"),url(../fonts/DINNextLTPro-Light.svg#DINNextLTPro-Light) format("svg");
+	src:url(../Frutas_files/DINNextLTPro-Light.eot);
+	src:url(../Frutas_files/DINNextLTPro-Light.eot?#iefix) format("embedded-opentype"),url(../Frutas_files/DINNextLTPro-Light.woff2) format("woff2"),url(../Frutas_files/DINNextLTPro-Light.woff) format("woff"),url(../Frutas_files/DINNextLTPro-Light.ttf) format("truetype"),url(../Frutas_files/DINNextLTPro-Light.svg#DINNextLTPro-Light) format("svg");
 	font-weight:400;
 	font-style:normal;
 }
@@ -44,7 +44,7 @@ html {
 }
 
 .mb-home {
-	background:url(../img/background.png) no-repeat center top fixed #142743;
+	background:url(../Frutas_files/background.png) no-repeat center top fixed #142743;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	-o-background-size:cover;
@@ -112,7 +112,7 @@ span {
 }
 
 .mb-logo,.mb-logo-inside {
-	background:url(../img/wlogo.png) no-repeat;
+	background:url(../Frutas_files/logo4.jpg) no-repeat;
 	display:block;
 	width:228px;
 	height:74px;
@@ -122,7 +122,7 @@ span {
 }
 
 .mb-logo-inside {
-	background-image:url(../img/clogo.png);
+	background-image:url(../Frutas_files/clogo.png);
 }
 
 .mb-navbar .navbar-nav > li > a,
@@ -180,20 +180,20 @@ span {
 	height:7px;
 	margin-left:2px;
 	vertical-align:middle;
-	background:url(../img/up.png);
+	background:url(../Frutas_files/up.png);
 }
 
 .mb-inner .mb-indicator {
-    background: url(../img/upb.png)
+    background: url(../Frutas_files/upb.png)
 }
 
 .mb-navbar .dropdown.open .mb-indicator,
 .mb-language.open .mb-indicator {
-	background-image:url(../img/down.png);
+	background-image:url(../Frutas_files/down.png);
 }
 
 .mb-inner .mb-language.open .mb-indicator {
-    background-image: url(../img/downb.png)
+    background-image: url(../Frutas_files/downb.png)
 }
 
 .mb-navbar.navbar-default .navbar-toggle {
@@ -332,7 +332,7 @@ span {
 
 #mb-block2 .item .shadow2,#mb-block2 .item .shadow {
 	position:absolute;
-	background:url(../img/shadow.png);
+	background:url(../Frutas_files/shadow.png);
 	width:100%;
 	height:100%;
 	display:block;
@@ -346,7 +346,7 @@ span {
 }
 
 #mb-block2 .item .shadow2 {
-	background-image:url(../img/shadow2.png);
+	background-image:url(../Frutas_files/shadow2.png);
 }
 
 #mb-block2 .item .shadow2:hover,#mb-block2 .item .shadow:hover {
@@ -493,15 +493,15 @@ span {
 }
 
 #mb-block4 .redes a.twitter {
-	background-image:url(../img/twitter.png);
+	background-image:url(../Frutas_files/twitter.png);
 }
 
 #mb-block4 .redes a.instagram {
-	background-image:url(../img/instagram.png);
+	background-image:url(../Frutas_files/instagram.png);
 }
 
 #mb-block4 .redes a.pinterest {
-	background-image:url(../img/pinterest.png);
+	background-image:url(../Frutas_files/pinterest.png);
 }
 
 select,textarea,input[type="text"],input[type="password"],input[type="datetime"],input[type="datetime-local"],input[type="date"],input[type="month"],input[type="time"],input[type="week"],input[type="number"],input[type="email"],input[type="url"],input[type="search"],input[type="tel"],input[type="color"] {
@@ -510,7 +510,7 @@ select,textarea,input[type="text"],input[type="password"],input[type="datetime"]
 
 #mb-up {
 	display:block;
-	background:url(../img/uparrow.jpg);
+	background:url(../Frutas_files/uparrow.jpg);
 	width:80px;
 	height:80px;
 	float:right;
@@ -570,7 +570,7 @@ select,textarea,input[type="text"],input[type="password"],input[type="datetime"]
 }
 
 .mb-menu {
-	background:url(../img/menu.png) no-repeat center 20px;
+	background:url(../Frutas_files/menu.png) no-repeat center 20px;
 	text-transform:uppercase;
 	display:block;
 	width:80px;
@@ -590,7 +590,7 @@ select,textarea,input[type="text"],input[type="password"],input[type="datetime"]
 
 .mb-menu.opened {
 	position:fixed;
-	background-image:url(../img/close.png);
+	background-image:url(../Frutas_files/close.png);
 	background-color:#003a6e;
 	color:#00a7e0;
 }
@@ -651,7 +651,7 @@ select,textarea,input[type="text"],input[type="password"],input[type="datetime"]
 }
 
 .mb-inside footer,.mb-products footer {
-	background:url(../img/footerbk.jpg) center center;
+	background:url(../Frutas_files/footerbk.jpg) center center;
 	padding-top:40px;
 }
 
@@ -980,7 +980,7 @@ select,textarea,input[type="text"],input[type="password"],input[type="datetime"]
 
 @media (max-width:800px) {
 	.mb-logo {
-		background:url(../img/wlogo@2x.png) no-repeat;
+		background:url(../Frutas_files/logo4@2x.png) no-repeat;
 		background-size:100% 100%;
 		display:block;
 		width:228px;
@@ -1084,7 +1084,7 @@ select,textarea,input[type="text"],input[type="password"],input[type="datetime"]
 	}
 	
 	.mb-home {
-		background:url(../img/background.png) no-repeat center top fixed #142743;
+		background:url(../Frutas_files/background.png) no-repeat center top fixed #142743;
 		-webkit-background-size:100% cover;
 		-moz-background-size:100% cover;
 		-o-background-size:100% cover;
