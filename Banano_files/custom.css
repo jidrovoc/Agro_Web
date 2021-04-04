@@ -33,11 +33,15 @@
 	margin: 30px 200px;
 }
 
+
 .caracts{
+	position: absolute;
 	text-align: center;
 	padding: 90px;
 	font-weight: 500;
 	font-size:30px;
+	top: 700px;
+	left: 300px;
 }
 
 .datos{
@@ -61,6 +65,116 @@
 .datos h4{
 	bottom: 30px;
 
+}
+
+.po{
+	position: absolute;
+	top: 535px;
+    left: 210px;
+    font-size:15px;
+}
+
+.po_n{
+	position: absolute;
+	top: 480px;
+    left: 175px;
+    
+    font-size: 41px;
+
+}
+
+.po_l{
+	position: absolute;
+	top: 480px;
+    left: 250px;
+    font-size:15px;
+    font-size: 41px;
+    opacity: 50%;
+}
+
+.ca{
+	position: absolute;
+	top: 535px;
+    left: 430px;
+    font-size:15px;
+}
+
+.ca_n{
+	position: absolute;
+	top: 480px;
+    left: 423px;
+    font-size: 41px;
+}
+
+.pro{
+	position: absolute;
+	top: 535px;
+    left: 640px;
+    font-size:15px;
+}
+
+.pro_n{
+	position: absolute;
+	top: 480px;
+    left: 626px;
+    font-size: 41px;
+}
+
+.pro_l{
+	position: absolute;
+	top: 480px;
+    left: 686px;
+    font-size: 41px;
+    opacity: 50%;
+}
+
+.so{
+	position: absolute;
+	top: 535px;
+    left: 875px;
+    font-size:15px;
+}
+
+.so_n{
+	position: absolute;
+	top: 480px;
+    left: 855px;
+    font-size: 41px;
+}
+
+.so_l{
+	position: absolute;
+	top: 480px;
+    left: 876px;
+    font-size: 41px;
+    opacity: 50%;
+}
+
+.co{
+	position: absolute;
+	top: 535px;
+    left: 1075px;
+    font-size:15px;
+}
+
+.co_n{
+	position: absolute;
+	top: 480px;
+    left: 1069px;
+    font-size: 41px;
+}
+
+.co_l{
+	position: absolute;
+	top: 480px;
+    left: 1094px;
+    font-size: 41px;
+    opacity: 50%;
+}
+
+.tables{
+	position: relative;
+	top:360px;
 }
 
 @font-face {
@@ -718,8 +832,10 @@ select,textarea,input[type="text"],input[type="password"],input[type="datetime"]
 }
 
 .mb-inside footer,.mb-products footer {
+	position: relative;
 	background:url(../Banano_files/footerbk.jpg) center center;
 	padding-top:40px;
+	top: 200px;
 }
 
 .mb-inside #copyright,.mb-products #copyright {
