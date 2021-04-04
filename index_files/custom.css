@@ -1188,3 +1188,10 @@ select,textarea,input[type="text"],input[type="password"],input[type="datetime"]
 		height:230px;
 	}
 }
+@media ( max-width: 30em){
+
+	#mb-block2 .item .shadow2 {
+	background-image:url(../index_files/shadow2.png);
+	top:24px;
+}
+}
