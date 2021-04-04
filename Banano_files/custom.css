@@ -1607,21 +1607,21 @@ select,textarea,input[type="text"],input[type="password"],input[type="datetime"]
 .co{
 	position: absolute;
 	top: 160px;
-    left: 293px;
+    left: 307px;
     font-size:11px;
 }
 
 .co_n{
 	position: absolute;
 	top: 140px;
-    left: 303px;
+    left: 317px;
     font-size: 13px;
 }
 
 .co_l{
 	position: absolute;
 	top: 140px;
-    left: 312px;
+    left: 326px;
     font-size: 13px;
     opacity: 50%;
 }
@@ -1691,7 +1691,13 @@ select,textarea,input[type="text"],input[type="password"],input[type="datetime"]
 	left: 14px;
 }
 
-
+.bana img{
+	position: absolute;
+	width: 0px;
+	top: -630px;
+    left: 800px;
+	
+}
 }
 
 
