@@ -20,7 +20,10 @@
     
     <!-- owl carousel -->
 	<link rel="stylesheet" href="./Frutas_files/owl.carousel.min.css">    
-	<link rel="stylesheet" href="./Frutas_files/owl.theme.default.min.css">    	
+	<link rel="stylesheet" href="./Frutas_files/owl.theme.default.min.css">    
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">	
+	<link rel="stylesheet" href="./Frutas_files/estilos.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -56,7 +59,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12">
-				<a href="./index.html" class="mb-logo-inside"></a>
+				<a href="http://www.pescagrosa.com/?es" class="mb-logo-inside"></a>
 			</div>
 		</div>
 	</div>
@@ -73,45 +76,45 @@
 			<div id="somos" class="col-sm-7 vhidden">
 				<ul>
 					<li><a href="./Quienes_somos.html">Pescagrosa</a></li>
-					<li><a href="./Quienes_somos.html">Visión</a></li>
-					<li><a href="./Quienes_somos.html">Misión</a></li>
+					<li><a href="http://www.pescagrosa.com/pescagrosa/?es#vision">Visión</a></li>
+					<li><a href="http://www.pescagrosa.com/pescagrosa/?es#mision">Misión</a></li>
 				</ul>
 			</div>
 			<div class="col-sm-3 col-sm-offset-1">
 				<h3 class="mb-dropdown">
-					<a href="./index_files" class="active">Productos</a>
+					<a href="http://www.pescagrosa.com/nuestro-camaron/?es#productos" class="active">Productos</a>
 				</h3>
 			</div>
 			<div id="productos" class="col-sm-7">
 				<ul>
-					<li><a href="./Frutas.html" class="active">Frutas</a></li>
-					<li><a href="">Vegetales</a></li>
+					<li><a href="http://www.pescagrosa.com/nuestro-camaron/?es" class="active">Nuestros camarones</a></li>
+					<li><a href="http://www.pescagrosa.com/nuestros-peces/?es">Nuestros peces</a></li>
 				</ul>
 			</div>
 			
 			<div class="col-sm-3 col-sm-offset-1">
 				<h3 class="mb-dropdown">
-					<a href="./index_files">Procesos</a>
+					<a href="http://www.pescagrosa.com/nuestro-camaron/?es#procesos">Procesos</a>
 				</h3>
 			</div>
 			<div id="procesos" class="col-sm-7 vhidden">
 				<ul>
-					<li><a href="./Alimentacion.html">Alimentación y clima</a></li>
-					<li><a href="./Alimentacion.html">Beneficios nutritivos</a></li>
-					<li><a href="./Alimentacion.html">Cultivo sostenible</a></li>
+					<li><a href="http://www.pescagrosa.com/procesos/?es#alimentacion">Alimentación y clima</a></li>
+					<li><a href="http://www.pescagrosa.com/procesos/?es#beneficios">Beneficios nutritivos</a></li>
+					<li><a href="http://www.pescagrosa.com/procesos/?es#cultivo">Cultivo sostenible</a></li>
 				</ul>
 			</div>
 			
 			<div class="col-sm-3 col-sm-offset-1">
 				<h3>
-					<a href="./Exportaciones.html">Exportaciones</a>
+					<a href="http://www.pescagrosa.com/exportaciones/?es">Exportaciones</a>
 				</h3>
 			</div>
 			<div class="col-sm-7 vhidden"></div>
 			
 			<div class="col-sm-3 col-sm-offset-1">
 				<h3>
-					<a href="./Contacto.html">Contáctenos</a>
+					<a href="http://www.pescagrosa.com/contactenos/?es">Contáctenos</a>
 				</h3>
 			</div>
 			<div class="col-sm-7 vhidden"></div>
@@ -121,9 +124,13 @@
     <section id="mb-headline">
 	    <div class="container-fluid">
 			<div class="row">
-				<div class="col-sm-12">
+				<div class="col-sm-12" >
 					<div class="containers">
-  						<a href="#">
+						<button aria-label="Anterior" class="carousel__anterior">
+							<i class="fas fa-chevron-left"></i>
+						</button>
+						<div class="carousel__lista">
+							<a href="#">
   							<div class="card" >
   							<img src="./Frutas_files/banano.png">
   							<h4>Banano</h4>
@@ -144,7 +151,7 @@
   							<a href="#">Ver más</a>
   						</div>
   						</a>
-						<a href="#">
+  						<a href="#">
   							<div class="card">
   							<img src="./Frutas_files/pitahayaA.png">
   							<h4>Pitahaya</h4>
@@ -160,9 +167,20 @@
   							<a href="#">Ver más</a>
   						</div>
   						</a>
+						</div>
+						
+  						
+  						<button aria-label="Siguiente" class="carousel__siguiente">
+							<i class="fas fa-chevron-right"></i>
+						</button>
+						<div role="tablist" class="carousel__indicadores"></div>
   					</div>
-					<img src="./Frutas_files/cabecera-1024x482.jpg" class="img-responsive" width="200%">
+  					<div class="img-size" >
+  						<img src="./Frutas_files/cabecera-1024x482.jpg" class="img-responsive" width="300%">
+  					</div>
+					
 				</div>
+
 			</div>
 	    </div>
     </section>    
@@ -178,6 +196,7 @@
 					<img src="./Frutas_files/cadena.png" class="img-responsive">
 					<span class="vborder-lg"></span>
 					<img src="./Frutas_files/like.png" class="img-responsive">
+					
 					
 				</div> 
 				<div id="right-content" class="col-sm-7">
@@ -262,22 +281,21 @@
 				</div>
 				<div id="middle-text" class="col-sm-4">
 					Puerto Santa Ana, Edificio<br>
-					The Point piso 25 oficina 2502<br>
+					The Point piso 25 oficina 2501<br>
 					Guayaquil - Ecuador
 					
 					<span class="border-footer"></span>
 				</div>
 				<div class="col-sm-4">
-					(593-9) 59883789<br>
+					(593-4) 4544934<br>
 					info@pescagrosa.com
-					jvelez@pescagrosa.com
 				</div>
 		    </div>
 		    
 		    <div id="copyright" class="row">
 			    <div class="col-sm-12">
 				    <div id="footer-copy">
-						© 2021 Todos los derechos reservados Pescagrosa<br> Diseñado por <a href="#" target="_blank">John Idrovo</a>				    </div>
+						© 2016 Todos los derechos reservados Pescagrosa<br> Diseñado por <a href="http://zebraestudio.com/" target="_blank">Zebra Comunicaciones</a>				    </div>
 			    </div>
 		    </div>
 		    
@@ -288,10 +306,13 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="./Frutas_files/jquery.min.js.descarga"></script>
-    <script>window.jQuery || document.write('<script src="./Frutas_files/jquery.min.js"><\/script>')</script>
+    <script>window.jQuery || document.write('<script src="http://www.pescagrosa.com/js/jquery.min.js"><\/script>')</script>
     <script src="./Frutas_files/bootstrap.min.js.descarga"></script>
     <script src="./Frutas_files/ie10-viewport-bug-workaround.js.descarga"></script>
 	<script src="./Frutas_files/web.js.descarga"></script>	
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
+	<script src="./Frutas_files/app.js"></script>
 
   
 
