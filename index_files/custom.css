@@ -1190,6 +1190,14 @@ select,textarea,input[type="text"],input[type="password"],input[type="datetime"]
 	}
 }
 @media ( max-width: 30em){
+	.mb-home {
+		background:url(../index_files/background.jpg) no-repeat center top fixed #142743;
+		-webkit-background-size:100% cover;
+		-moz-background-size:100% cover;
+		background-size:cover;
+		background-color: #66999;
+		background-attachment: fixed;
+	}
 
 	#mb-block2 .item .shadow2 {
 	background-image:url(../index_files/shadow2.png);
