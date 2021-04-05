@@ -1643,7 +1643,7 @@ select,textarea,input[type="text"],input[type="password"],input[type="datetime"]
 
 .caracts{
 	position: absolute;
-	top: 272px;
+	top: 170px;
     left: 0px;
     font-size: 20px;
 }
