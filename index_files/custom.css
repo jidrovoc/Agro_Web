@@ -115,7 +115,7 @@ span {
 .mb-logo,.mb-logo-inside {
 	background:url(../index_files/logo4.png) no-repeat;
 	display:block;
-	width:450px;
+	width:450px; 
 	height:160px;
 	margin:0 auto;
 	margin-top:20px;
@@ -1193,6 +1193,12 @@ select,textarea,input[type="text"],input[type="password"],input[type="datetime"]
 }
 
 @media ( max-width: 30em){
+	.imgR{
+		position: absolute;
+		top: 40px;
+		left: -35px;
+	}
+
 	.mb-home {
 		background:url(../index_files/background.jpg) no-repeat center top fixed #142743;
 		-webkit-background-size:100% cover;
