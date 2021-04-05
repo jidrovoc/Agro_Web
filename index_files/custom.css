@@ -49,6 +49,7 @@ html {
 	-moz-background-size:cover;
 	-o-background-size:cover;
 	background-size:cover;
+	max-width: 1500px;
 }
 
 .vhidden {
@@ -349,6 +350,7 @@ span {
 	background-image:url(../index_files/shadow2.png);
 	top:24px;
 }
+
 
 #mb-block2 .item .shadow2:hover,#mb-block2 .item .shadow:hover {
 	color:#55b8d1;
@@ -980,10 +982,10 @@ select,textarea,input[type="text"],input[type="password"],input[type="datetime"]
 
 @media (max-width:800px) {
 	.mb-logo {
-		background:url(../index_files/logo@2x.png) no-repeat;
+		background:url(../index_files/logo4.png) no-repeat;
 		background-size:100% 100%;
 		display:block;
-		width:228px;
+		width:50px;
 		height:74px;
 		margin:0 auto;
 		margin-top:20px;
@@ -1189,6 +1191,7 @@ select,textarea,input[type="text"],input[type="password"],input[type="datetime"]
 		height:230px;
 	}
 }
+
 @media ( max-width: 30em){
 	.mb-home {
 		background:url(../index_files/background.jpg) no-repeat center top fixed #142743;
@@ -1203,4 +1206,18 @@ select,textarea,input[type="text"],input[type="password"],input[type="datetime"]
 	background-image:url(../index_files/shadow2.png);
 	top:24px;
 }
+
+.mb-logo{
+
+	background:url(./index_files/logo4.png) no-repeat;
+	display:block;
+	width:80px;
+	height:60px;
+	margin:10px auto;
+	margin-top:40px;
+	margin-bottom:20px;
+	
+	z-index: 1;
 }
+}
+ 
