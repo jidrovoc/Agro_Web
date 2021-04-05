@@ -1084,7 +1084,7 @@ select,textarea,input[type="text"],input[type="password"],input[type="datetime"]
 	}
 	
 	.mb-home {
-		background:url(../index_files/background.png) no-repeat center top fixed #142743;
+		background:url(../index_files/background.jpg) no-repeat center top fixed #142743;
 		-webkit-background-size:100% cover;
 		-moz-background-size:100% cover;
 		-o-background-size:100% cover;
