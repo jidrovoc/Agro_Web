@@ -1,3 +1,9 @@
+.logo44{
+	z-index: 1;
+	position: absolute;
+	left: 60px;
+	top: 184px;
+}
 .tg  {border-collapse:collapse;border-color:#ccc;border-spacing:0;}
 .tg td{background-color:#fff;border-color:#ccc;border-style:solid;border-width:1px;color:#333;
   font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
@@ -1521,6 +1527,14 @@ select,textarea,input[type="text"],input[type="password"],input[type="datetime"]
 }
 
 @media ( max-width: 30em){
+	.logo44{
+	width: 100px;
+	height: 50px;
+	z-index: 1;
+	position: absolute;
+	left: 15px;
+	top: 180px;
+}
 
 	.po{
 	position: absolute;
