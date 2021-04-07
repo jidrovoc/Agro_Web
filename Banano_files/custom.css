@@ -4,6 +4,58 @@
 	left: 60px;
 	top: 100px;
 }
+
+.produ{
+	position: absolute;
+	top: 700px;
+	left: 177px;
+}
+
+.produT{
+	position: absolute;
+	top: 730px;
+	left: 177px;
+	width: 282px;
+}
+
+
+.cali{
+	position: absolute;
+	top: 700px;
+	left: 515px;
+}
+
+.caliT{
+	position: absolute;
+	top: 730px;
+	left: 515px;
+	width: 282px;
+}
+
+.salu{
+	position: absolute;
+	top: 700px;
+	left: 860px;
+}
+
+.saluT{
+	position: absolute;
+	top: 730px;
+	left: 860px;
+	width: 305px;
+}
+
+.lineH{
+	position: relative;
+	top: 230px;
+}
+
+.lineHT{
+	position: relative;
+	top: 400px;
+}
+
+
 .tg  {border-collapse:collapse;border-color:#ccc;border-spacing:0;}
 .tg td{background-color:#fff;border-color:#ccc;border-style:solid;border-width:1px;color:#333;
   font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
@@ -46,7 +98,7 @@
 	padding: 90px;
 	font-weight: 500;
 	font-size:30px;
-	top: 580px;
+	top: 840px;
 	left: 300px;
 }
 
@@ -180,7 +232,7 @@
 
 .tables{
 	position: relative;
-	top:360px;
+	top:600px;
 }
 
 @font-face {
@@ -695,6 +747,7 @@ select,textarea,input[type="text"],input[type="password"],input[type="datetime"]
 	font-size:16px;
 }
 
+
 #mb-up {
 	display:block;
 	background:url(../Banano_files/uparrow.jpg);
@@ -705,7 +758,7 @@ select,textarea,input[type="text"],input[type="password"],input[type="datetime"]
 	margin-top:40px;
 	margin-bottom:40px;
 	position: relative;
-	top: 200px;
+	top: 440px;
 }
 
 .mb-navbar.bottom {
@@ -715,6 +768,10 @@ select,textarea,input[type="text"],input[type="password"],input[type="datetime"]
 #mb-footer {
 	color:#fff;
 	text-align:left;
+	position: absolute;
+	top: 1770px;
+	left: 0px;
+	width: 1349px;
 }
 
 #mb-footer .container {
