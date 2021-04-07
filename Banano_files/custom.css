@@ -5,6 +5,51 @@
 	top: 100px;
 }
 
+.or, .bo, .calid, .fac{
+	border:0px;
+	background-color: transparent;
+}
+.botones{
+	position: absolute;
+	display: flex;
+	top: 910px;
+	left: 380px;
+}
+
+.or{
+	position: absolute;
+	left: -60px;
+}
+.bo{
+	position: absolute;
+	left: 77px;
+}
+.calid{
+	position: absolute;
+	width: 200px;
+	left: 170px;
+}
+.fac{
+	position: absolute;
+	width: 430px;
+	left: 340px;
+}
+
+
+.verticalLine {
+	position: absolute;
+	height: 290px;
+	left: 310px;
+	top: 970px;
+	border-left: thick solid #9c9c9c;
+	border-width: 2px;
+}
+#parrafoPrincipal{
+	font-size: 15px;
+	position: absolute; 
+	top: 1000px;
+	left: 319px;
+}
 .produ{
 	position: absolute;
 	top: 700px;
@@ -55,7 +100,10 @@
 	top: 400px;
 }
 
-
+.lineHD{
+	position: relative;
+	top: 850px;
+}
 .tg  {border-collapse:collapse;border-color:#ccc;border-spacing:0;}
 .tg td{background-color:#fff;border-color:#ccc;border-style:solid;border-width:1px;color:#333;
   font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
@@ -98,7 +146,7 @@
 	padding: 90px;
 	font-weight: 500;
 	font-size:30px;
-	top: 840px;
+	top: 1300px;
 	left: 300px;
 }
 
@@ -232,7 +280,7 @@
 
 .tables{
 	position: relative;
-	top:600px;
+	top:1020px;
 }
 
 @font-face {
@@ -747,7 +795,6 @@ select,textarea,input[type="text"],input[type="password"],input[type="datetime"]
 	font-size:16px;
 }
 
-
 #mb-up {
 	display:block;
 	background:url(../Banano_files/uparrow.jpg);
@@ -758,7 +805,7 @@ select,textarea,input[type="text"],input[type="password"],input[type="datetime"]
 	margin-top:40px;
 	margin-bottom:40px;
 	position: relative;
-	top: 440px;
+	top: 880px;
 }
 
 .mb-navbar.bottom {
@@ -769,13 +816,15 @@ select,textarea,input[type="text"],input[type="password"],input[type="datetime"]
 	color:#fff;
 	text-align:left;
 	position: absolute;
-	top: 1770px;
+	top: 2220px;
 	left: 0px;
 	width: 1349px;
 }
 
 #mb-footer .container {
 	max-width:700px;
+
+
 }
 
 #mb-footer .mb-logo {
@@ -910,7 +959,7 @@ select,textarea,input[type="text"],input[type="password"],input[type="datetime"]
 .mb-inside #copyright #footer-copy,.mb-products #copyright #footer-copy {
 	margin:0;
 	padding:10px 0;
-	color:#00a6fd;
+	color:#00a6fd;mb-footer
 }
 
 .mb-inside #copyright #footer-copy a {
@@ -1365,6 +1414,7 @@ select,textarea,input[type="text"],input[type="password"],input[type="datetime"]
 	
 	#mb-footer {
 		text-align:center;
+
 	}
 	
 	#mb-footer .border-footer {
@@ -1584,7 +1634,8 @@ select,textarea,input[type="text"],input[type="password"],input[type="datetime"]
 }
 
 @media ( max-width: 30em){
-	.logo44{
+
+.logo44{
 	width: 100px;
 	height: 50px;
 	z-index: 1;
@@ -1592,7 +1643,6 @@ select,textarea,input[type="text"],input[type="password"],input[type="datetime"]
 	left: 8px;
 	top: 86px;
 }
-
 
 	.po{
 	position: absolute;
@@ -1761,6 +1811,12 @@ select,textarea,input[type="text"],input[type="password"],input[type="datetime"]
 	position: relative;
 	top: 1760px;
 	left: 14px;
+}
+
+.bana{
+	width: 0px;
+	height: 0px;
+	position: absolute;
 }
 
 .bana img{
