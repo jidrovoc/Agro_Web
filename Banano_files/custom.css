@@ -1750,11 +1750,66 @@ select,textarea,input[type="text"],input[type="password"],input[type="datetime"]
 
 .caracts{
 	position: absolute;
-	top: 170px;
-    left: 0px;
+	top: 610px;
+    left: -30px;
     font-size: 20px;
 }
 
+.lineH{
+	position: relative;
+	top: 100px;
+}
+
+.produ{
+	position: absolute;
+	top: 305px;
+	left: 110px;
+}
+
+.produT{
+	position: absolute;
+	top: 340px;
+	left: 32px;
+	width: 282px;
+}
+
+
+.cali{
+	position: absolute;
+	top: 430px;
+	left: 130px;
+}
+
+.caliT{
+	position: absolute;
+	top: 465px;
+	left: 32px;
+	width: 282px;
+}
+
+.salu{
+	position: absolute;
+	top: 555px;
+	left: 138px;
+}
+
+.saluT{
+	position: absolute;
+	top: 590px;
+	left: 32px;
+	width: 305px;
+}
+
+
+.lineHT{
+	position: relative;
+	top: 480px;
+}
+
+.lineHD{
+	position: relative;
+	top: 850px;
+}
 
 
 
@@ -1782,13 +1837,17 @@ select,textarea,input[type="text"],input[type="password"],input[type="datetime"]
 .tg{
 	position: absolute;
 	left: -180px;
-	top: -200px;
+	top: -500px;
 }
 
 .tg_D{
 	position: absolute;
 	left: -180px;
-	top: 750px;
+	top: 440px;
+}
+
+.botones, #parrafoPrincipal, #ms_1, #ms_2, #ms_3, #ms_4{
+	visibility: hidden;
 }
 
 .mb-inside footer,.mb-products footer {
@@ -1809,8 +1868,8 @@ select,textarea,input[type="text"],input[type="password"],input[type="datetime"]
 	margin-top:40px;
 	margin-bottom:40px;
 	position: relative;
-	top: 1760px;
-	left: 14px;
+	top: 2120px;
+	left: -9px;
 }
 
 .bana{
@@ -1825,6 +1884,19 @@ select,textarea,input[type="text"],input[type="password"],input[type="datetime"]
 	top: -630px;
     left: 800px;
 	
+}
+
+#mb-footer {
+	color:#fff;
+	text-align:left;
+	position: absolute;
+	top: 2480px;
+	left: 0px;
+	width: 350px;
+}
+
+.bana img{
+	visibility: hidden;
 }
 }
 
