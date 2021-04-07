@@ -1751,25 +1751,26 @@ select,textarea,input[type="text"],input[type="password"],input[type="datetime"]
 .caracts{
 	position: absolute;
 	top: 610px;
-    left: -30px;
+    left: 1px;
     font-size: 20px;
 }
 
 .lineH{
 	position: relative;
+	width: 350px;
 	top: 100px;
 }
 
 .produ{
 	position: absolute;
 	top: 305px;
-	left: 110px;
+	left: 128px;
 }
 
 .produT{
 	position: absolute;
 	top: 340px;
-	left: 32px;
+	left: 50px;
 	width: 282px;
 }
 
@@ -1777,39 +1778,37 @@ select,textarea,input[type="text"],input[type="password"],input[type="datetime"]
 .cali{
 	position: absolute;
 	top: 430px;
-	left: 130px;
+	left: 148px;
 }
 
 .caliT{
 	position: absolute;
 	top: 465px;
-	left: 32px;
+	left: 50px;
 	width: 282px;
 }
 
 .salu{
 	position: absolute;
 	top: 555px;
-	left: 138px;
+	left: 156px;
 }
 
 .saluT{
 	position: absolute;
 	top: 590px;
-	left: 32px;
+	left: 50px;
 	width: 305px;
 }
 
 
 .lineHT{
 	position: relative;
+	width: 350px;
 	top: 480px;
 }
 
-.lineHD{
-	position: relative;
-	top: 850px;
-}
+
 
 
 
@@ -1838,12 +1837,14 @@ select,textarea,input[type="text"],input[type="password"],input[type="datetime"]
 	position: absolute;
 	left: -180px;
 	top: -500px;
+	width: 350px;
 }
 
 .tg_D{
 	position: absolute;
 	left: -180px;
 	top: 440px;
+	width: 350px;
 }
 
 .botones, #parrafoPrincipal, #ms_1, #ms_2, #ms_3, #ms_4{
@@ -1869,7 +1870,7 @@ select,textarea,input[type="text"],input[type="password"],input[type="datetime"]
 	margin-bottom:40px;
 	position: relative;
 	top: 2120px;
-	left: -9px;
+	left: -1px;
 }
 
 .bana{
@@ -1892,7 +1893,7 @@ select,textarea,input[type="text"],input[type="password"],input[type="datetime"]
 	position: absolute;
 	top: 2480px;
 	left: 0px;
-	width: 350px;
+	width: 358px;
 }
 
 .bana img{
