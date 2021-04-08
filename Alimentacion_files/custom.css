@@ -570,7 +570,7 @@ select,textarea,input[type="text"],input[type="password"],input[type="datetime"]
 }
 
 .mb-menu {
-	background:url(../img/menu.png) no-repeat center 20px;
+	background:url(../Alimentacion_files/menu.png) no-repeat center 20px;
 	text-transform:uppercase;
 	display:block;
 	width:80px;
@@ -651,7 +651,7 @@ select,textarea,input[type="text"],input[type="password"],input[type="datetime"]
 }
 
 .mb-inside footer,.mb-products footer {
-	background:url(../img/footerbk.jpg) center center;
+	background:url(../Alimentacion_files/footerbk.jpg) center center;
 	padding-top:40px;
 }
 
