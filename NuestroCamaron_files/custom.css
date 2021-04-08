@@ -570,7 +570,7 @@ select,textarea,input[type="text"],input[type="password"],input[type="datetime"]
 }
 
 .mb-menu {
-	background:url(../img/menu.png) no-repeat center 20px;
+	background:url(../NuestroCamaron_files/menu.png) no-repeat center 20px;
 	text-transform:uppercase;
 	display:block;
 	width:80px;
